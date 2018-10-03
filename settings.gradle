@@ -1,0 +1,4 @@
+rootProject.name = 'bucket-download'
+include 'Client'
+findProject(':Client')?.name = 'bucket-download-client'
+
